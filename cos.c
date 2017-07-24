@@ -2,10 +2,10 @@
 #include<conio.h>
 void main()
 {
-char ch;
+char c;
 printf("enter the number");
-scanf("%c",&ch);
-if(ch='a'||ch='e'||ch='i'||ch='o'||ch='u'||ch='A'||ch='E'||ch='I'||ch='O'||ch='U')
+scanf("%c",&c);
+if(c='a'||c='e'||c='i'||c='o'||c='u'||c='A'||c='E'||c='I'||c='O'||c='U')
 {
 printf("the character is vowel");
 }
